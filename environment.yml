@@ -1,4 +1,4 @@
-name: /Users/farrellnah/Projects/MRT_Crowd_Viz/.conda
+name: .conda
 channels:
   - defaults
   - conda-forge
