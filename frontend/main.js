@@ -9,7 +9,7 @@ function get_crowd_viz() {
   const end_station = document.getElementById('end_station_input').value
 
   console.log(day_type, start_station, end_station)
-  axios.get(`http://localhost:5000/${day_type}/${start_station}/${end_station}`)
+  axios.get(`https://boundtotheearth.pythonanywhere.com/${day_type}/${start_station}/${end_station}`)
     .then(function (response) {
       console.log(response)
       document.getElementById('heatmap_svg').innerHTML = response.data
