@@ -8,7 +8,8 @@ function get_crowd_viz() {
   const start_station = document.getElementById('start_station_input').value
   const end_station = document.getElementById('end_station_input').value
 
-  console.log(day_type, start_station, end_station)
+  document.getElementById('heatmap_spinner').classList.remove('d-none')
+
   axios.get(`https://boundtotheearth.pythonanywhere.com/${day_type}/${start_station}/${end_station}`)
     .then(function (response) {
       console.log(response)
@@ -17,5 +18,8 @@ function get_crowd_viz() {
     .catch(function (error) {
       // handle error
       console.log(error);
+    })
+    .finally(function () {
+      document.getElementById('heatmap_spinner').classList.add('d-none')
     })
 }

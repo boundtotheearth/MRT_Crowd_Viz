@@ -9,39 +9,86 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">Singapore MRT Crowd Vizualization</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="index.html">Custom Route</a>
+            <a class="nav-link" aria-current="page" href="NSL.html">North-South Line</a>
+            <a class="nav-link" href="EWL.html">East-West Line</a>
+            <a class="nav-link" href="NEL.html">North-East Line</a>
+            <a class="nav-link" href="CCL.html">Circle Line</a>
+            <a class="nav-link" href="DTL.html">Downtown Line</a>
+            <a class="nav-link" href="TEL.html">Thomson-East-Coast Line</a>
+          </div>
+        </div>
       </div>
     </nav>
 
-    <div class="container">
-      <div class="col-lg-8 px-0">
-        <h1>Weekday or Weekend/Holiday</h1>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="day_type_radio" id="weekday_radio_input" checked>
-          <label class="form-check-label" for="weekday_radio_input">
-            Weekday
-          </label>
+    <div class="container px-5 py-5 text-center">
+      <div class="d-grid gap-3">
+        <div class="row">
+          <h1 class="display-5 fw-bold text-body-emphasis">Custom Route Crowd Visualizer</h1>
+          <p class="lead">Check how crowded your journey might be, based on last month's data published by LTA</p>
         </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="day_type_radio" id="weekend_radio_input">
-          <label class="form-check-label" for="weekend_radio_input">
-            Weekends/Holiday
-          </label>
+        <div class="row justify-content-center">
+          <div class="btn-group" role="group">
+            <input class="btn-check" type="radio" name="day_type_radio" id="weekday_radio_input" checked>
+            <label class="btn btn-outline-primary" for="weekday_radio_input">
+              Weekday
+            </label>
+
+            <input class="btn-check" type="radio" name="day_type_radio" id="weekend_radio_input">
+            <label class="btn btn-outline-primary" for="weekend_radio_input">
+              Weekends/Holiday
+            </label>
+          </div>
         </div>
-        <h1>Start Station</h1>
-        <input id="start_station_input" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-
-        <h1>End Station</h1>
-        <input id="end_station_input" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-
-        <a class="btn btn-primary" onclick="get_crowd_viz()">View</a>
+        <div class="row justify-content-between">
+          <div class="col-5">
+            <h2>Start</h2>
+          </div>
+          <div class="col-5">
+            <h2>End</h2>
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-5">
+            <div class="form-floating">
+              <input id="start_station_input" type="text" class="form-control" placeholder="Station Code (e.g. NS16)" aria-label="Station Code">
+              <label for="start_station_input">Station Code (e.g. NS16)</label>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg>
+          </div>
+          <div class="col-lg-5">
+            <div class="form-floating">
+              <input id="end_station_input" type="text" class="form-control" placeholder="Station Code (e.g. EW20)" aria-label="Station Code">
+              <label for="end_station_input">Station Code (e.g. EW20)</label>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-6 mx-auto">
+            <button class="btn btn-primary" type="button" onclick="get_crowd_viz()">View</button>
+          </div>
+        </div>
       </div>
-      <div col-lg-8 px-0>
-        <h1>Crowdedness Heatmap</h1>
-        <div id="heatmap_svg">
-
-        </div>
+    </div>
+    
+    <div class="container text-center justify-content-center">
+      <h1>Crowdedness Heatmap</h1>
+      <div id="heatmap_spinner" class="spinner-border d-none" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div id="heatmap_svg" class="overflow-scroll">
+        
       </div>
     </div>
 
