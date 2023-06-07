@@ -13,7 +13,9 @@ def hello_world():
 @app.route("/<day_type>/<start_station>/<end_station>")
 def generate_viz(day_type, start_station, end_station):
     day_type = 'WEEKENDS/HOLIDAY' if day_type == 'WEEKEND' else day_type
-    custom_line = get_shortest_path(start_station, end_station)
+    start_station_codes = start_station.split("_")
+    end_station_codes = end_station.split("_")
+    custom_line = get_shortest_path(start_station_codes, end_station_codes)
     forward_df, backward_df = get_data(custom_line, hours, day_type)
 
     d = draw_heatmap(forward_df, backward_df, data_min=0, data_max=100)

@@ -140,7 +140,16 @@ counts_df = pd.read_csv('counts_df.csv')
 
 
 def get_shortest_path(start_station, end_station):
-    return nx.shortest_path(network_graph, start_station, end_station)
+    start_station = [start_station]if type(start_station) is str else start_station
+    end_station = [end_station]if type(end_station) is str else end_station
+
+    shortest_path = None
+    for start, end in product(start_station, end_station):
+        path = nx.shortest_path(network_graph, start, end)
+        if shortest_path is None or len(path) < len(shortest_path):
+            shortest_path = path
+    
+    return shortest_path
 
 def generate_network_graph():
     print("Generating Network Graph...")
