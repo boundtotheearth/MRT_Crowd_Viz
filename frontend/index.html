@@ -29,54 +29,48 @@
     </nav>
 
     <div class="container px-5 py-5 text-center">
-      <div class="d-grid gap-3">
+      <div class="d-grid gap-5">
         <div class="row">
           <h1 class="display-5 fw-bold text-body-emphasis">Custom Route Crowd Visualizer</h1>
           <p class="lead">Check how crowded your journey might be, based on last month's data published by LTA</p>
         </div>
         <div class="row justify-content-center">
-          <div class="btn-group" role="group">
+          <div class="col-lg-9 btn-group" role="group">
             <input class="btn-check" type="radio" name="day_type_radio" id="weekday_radio_input" checked>
-            <label class="btn btn-outline-primary" for="weekday_radio_input">
+            <label class="btn btn-outline-primary w-50" for="weekday_radio_input">
               Weekday
             </label>
-
             <input class="btn-check" type="radio" name="day_type_radio" id="weekend_radio_input">
-            <label class="btn btn-outline-primary" for="weekend_radio_input">
+            <label class="btn btn-outline-primary w-50" for="weekend_radio_input">
               Weekends/Holiday
             </label>
           </div>
         </div>
-        <div class="row justify-content-between">
-          <div class="col-5">
-            <h2>Start</h2>
+        <div class="row align-items-center justify-content-center gap-2">
+          <div class="col-lg-4">
+            <h3>Start</h3>
+            <select id="start_station_list" class="form-select">
+
+            </select>
           </div>
-          <div class="col-5">
-            <h2>End</h2>
-          </div>
-        </div>
-        <div class="row align-items-center justify-content-center">
-          <div class="col-lg-5">
-            <div class="form-floating">
-              <input id="start_station_input" type="text" class="form-control" placeholder="Station Code (e.g. NS16)" aria-label="Station Code">
-              <label for="start_station_input">Station Code (e.g. NS16)</label>
+          <div class="col-lg-1">
+            <div class="pt-5 d-none d-lg-block">
+              <h2>→</h2>
+            </div>
+            <div class="d-lg-none">
+              <h2>↓</h2>
             </div>
           </div>
-          <div class="col-lg-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-            </svg>
-          </div>
-          <div class="col-lg-5">
-            <div class="form-floating">
-              <input id="end_station_input" type="text" class="form-control" placeholder="Station Code (e.g. EW20)" aria-label="Station Code">
-              <label for="end_station_input">Station Code (e.g. EW20)</label>
-            </div>
+          <div class="col-lg-4">
+            <h3>End</h3>
+            <select id="end_station_list" class="form-select form-select">
+
+            </select>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-6 mx-auto">
-            <button class="btn btn-primary" type="button" onclick="get_crowd_viz()">View</button>
+          <div class="d-grid col-lg-9 mx-auto">
+            <button class="btn btn-outline-primary" type="button" onclick="get_crowd_viz()">View</button>
           </div>
         </div>
       </div>
