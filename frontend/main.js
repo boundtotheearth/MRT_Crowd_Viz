@@ -6,8 +6,8 @@ function get_crowd_viz() {
     day_type = 'WEEKEND'
   }
 
-  const start_station = document.getElementById('start_station_input')
-  const end_station = document.getElementById('end_station_input')
+  const start_station = document.getElementById('start_station_list').value
+  const end_station = document.getElementById('end_station_list').value
 
   document.getElementById('heatmap_spinner').classList.remove('d-none')
 
@@ -203,7 +203,7 @@ function build_station_dropdown(list_ele) {
   list_ele.innerHTML = ""
   stations.forEach((element, i) => {
     var option = document.createElement('option')
-    option.value = element.match(/\(([^)]+)\)/)[1].replace("/", "_")
+    option.value = element.match(/\(([^)]+)\)/)[1].replace(/\//g, "_")
     option.text = element
     if(i == 0) {
       option.classList.add("selected")
