@@ -9,8 +9,8 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Singapore MRT Crowd Vizualization</a>
+      <div class="container-fluid flex-nowrap">
+        <a class="navbar-brand text-wrap" href="#">Singapore MRT Crowd Vizualization</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,15 +34,15 @@
           <h1 class="display-5 fw-bold text-body-emphasis">Custom Route Crowd Visualizer</h1>
           <p class="lead">Check how crowded your journey might be, based on last month's data published by LTA</p>
         </div>
-        <div class="row justify-content-center">
+        <div class="row align-items-center justify-content-center">
           <div class="col-lg-9 btn-group" role="group">
             <input class="btn-check" type="radio" name="day_type_radio" id="weekday_radio_input" checked>
-            <label class="btn btn-outline-primary w-50" for="weekday_radio_input">
+            <label class="btn btn-outline-primary w-50 text-wrap d-flex align-items-center justify-content-center" for="weekday_radio_input">
               Weekday
             </label>
             <input class="btn-check" type="radio" name="day_type_radio" id="weekend_radio_input">
-            <label class="btn btn-outline-primary w-50" for="weekend_radio_input">
-              Weekends/Holiday
+            <label class="btn btn-outline-primary w-50 text-wrap d-flex align-items-center justify-content-center" for="weekend_radio_input">
+              Weekends<wbr>/Holiday
             </label>
           </div>
         </div>
@@ -81,7 +81,7 @@
       <div id="heatmap_spinner" class="spinner-border d-none" role="status">
         <span class="visually-hidden">Loading...</span>
       </div>
-      <div id="heatmap_svg" class="overflow-scroll">
+      <div id="heatmap_div">
         
       </div>
     </div>

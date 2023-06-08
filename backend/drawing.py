@@ -24,7 +24,7 @@ def draw_heatmap(forward_df, backward_df, data_min=None, data_max=None):
 
     gray = to_rgb((43, 41, 37))
 
-    d = dw.Drawing(canvas_width, canvas_height, font_family='Verdana')
+    d = dw.Drawing(canvas_width, canvas_height, id='heatmap_svg', font_family='Verdana')
 
     # Draw Background
     bg = dw.Rectangle(0, 0, canvas_width, canvas_height, fill='white')
