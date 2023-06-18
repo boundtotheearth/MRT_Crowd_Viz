@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="1430" height="1920" viewBox="0 0 1430 1920" font-family="Verdana">
+     width="1430" height="1920" viewBox="0 0 1430 1920" id="heatmap_svg" font-family="Verdana">
 <defs>
 <clipPath id="d0">
 <rect x="166.0" y="90.72949016875157" width="18.0" height="51.54101966249685" stroke-width="1.5" fill="rgb(38, 91, 163)" fill-opacity="0.3" />
@@ -11596,7 +11596,7 @@
 </g>
 <g>
 <use xlink:href="#d286" />
-<rect x="332.5" y="491.2702509142404" width="15" height="23.00025891700802" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.49298796667532435" />
+<rect x="332.5" y="490.40803776431466" width="15" height="23.862472066933762" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.5153592780074098" />
 <rect x="332.5" y="465.72949016875157" width="15" height="48.54101966249685" ry="4" stroke="url(#d287)" stroke-width="1.5" fill="none" clip-path="url(#d286)" />
 </g>
 <g>
@@ -12001,12 +12001,12 @@
 </g>
 <g>
 <use xlink:href="#d448" />
-<rect x="387.5" y="708.762608418665" width="15" height="25.507901412583415" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.5580522155596244" />
+<rect x="387.5" y="707.9797941570313" width="15" height="26.290715674217086" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.5783634130445058" />
 <rect x="387.5" y="685.7294901687516" width="15" height="48.54101966249685" ry="4" stroke="url(#d449)" stroke-width="1.5" fill="none" clip-path="url(#d448)" />
 </g>
 <g>
 <use xlink:href="#d450" />
-<rect x="442.5" y="706.4941962590863" width="15" height="27.776313572162188" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.616909302877065" />
+<rect x="442.5" y="705.7912215686757" width="15" height="28.479288262572716" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.6351489523872873" />
 <rect x="442.5" y="685.7294901687516" width="15" height="48.54101966249685" ry="4" stroke="url(#d451)" stroke-width="1.5" fill="none" clip-path="url(#d450)" />
 </g>
 <g>
@@ -12041,7 +12041,7 @@
 </g>
 <g>
 <use xlink:href="#d464" />
-<rect x="827.5" y="709.5720719098417" width="15" height="24.698437921406697" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.5370495669980353" />
+<rect x="827.5" y="708.762608418665" width="15" height="25.507901412583415" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.5580522155596244" />
 <rect x="827.5" y="685.7294901687516" width="15" height="48.54101966249685" ry="4" stroke="url(#d465)" stroke-width="1.5" fill="none" clip-path="url(#d464)" />
 </g>
 <g>
@@ -12421,7 +12421,7 @@
 </g>
 <g>
 <use xlink:href="#d616" />
-<rect x="607.5" y="943.4070915916238" width="15" height="10.863418239624531" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.17808086811733018" />
+<rect x="607.5" y="942.2938098956974" width="15" height="11.976699935550982" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.2069664997294526" />
 <rect x="607.5" y="905.7294901687516" width="15" height="48.54101966249685" ry="4" stroke="url(#d617)" stroke-width="1.5" fill="none" clip-path="url(#d616)" />
 </g>
 <g>
@@ -12511,7 +12511,7 @@
 </g>
 <g>
 <use xlink:href="#d652" />
-<rect x="497.5" y="997.2938098956974" width="15" height="11.976699935550982" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.2069664997294526" />
+<rect x="497.5" y="996.1942635178507" width="15" height="13.076246313397682" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.23549574953849794" />
 <rect x="497.5" y="960.7294901687516" width="15" height="48.54101966249685" ry="4" stroke="url(#d653)" stroke-width="1.5" fill="none" clip-path="url(#d652)" />
 </g>
 <g>
@@ -12521,7 +12521,7 @@
 </g>
 <g>
 <use xlink:href="#d656" />
-<rect x="607.5" y="998.4070915916238" width="15" height="10.863418239624531" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.17808086811733018" />
+<rect x="607.5" y="997.2938098956974" width="15" height="11.976699935550982" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.2069664997294526" />
 <rect x="607.5" y="960.7294901687516" width="15" height="48.54101966249685" ry="4" stroke="url(#d657)" stroke-width="1.5" fill="none" clip-path="url(#d656)" />
 </g>
 <g>
@@ -12536,7 +12536,7 @@
 </g>
 <g>
 <use xlink:href="#d662" />
-<rect x="772.5" y="994.0430247068183" width="15" height="15.227485124430093" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.29131261245159096" />
+<rect x="772.5" y="992.994394305725" width="15" height="16.276115525523466" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.31852077690277086" />
 <rect x="772.5" y="960.7294901687516" width="15" height="48.54101966249685" ry="4" stroke="url(#d663)" stroke-width="1.5" fill="none" clip-path="url(#d662)" />
 </g>
 <g>
@@ -12811,7 +12811,7 @@
 </g>
 <g>
 <use xlink:href="#d772" />
-<rect x="497.5" y="1164.5323288229208" width="15" height="9.738181008327803" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.14888503362331798" />
+<rect x="497.5" y="1165.667659970196" width="15" height="8.602849861052647" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.11942729853438588" />
 <rect x="497.5" y="1125.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d773)" stroke-width="1.5" fill="none" clip-path="url(#d772)" />
 </g>
 <g>
@@ -12936,12 +12936,12 @@
 </g>
 <g>
 <use xlink:href="#d822" />
-<rect x="772.5" y="1212.994394305725" width="15" height="16.276115525523466" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.31852077690277086" />
+<rect x="772.5" y="1214.0430247068184" width="15" height="15.227485124430093" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.29131261245159096" />
 <rect x="772.5" y="1180.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d823)" stroke-width="1.5" fill="none" clip-path="url(#d822)" />
 </g>
 <g>
 <use xlink:href="#d824" />
-<rect x="827.5" y="1211.9656089538616" width="15" height="17.30490087738697" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.3452140341355209" />
+<rect x="827.5" y="1212.994394305725" width="15" height="16.276115525523466" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.31852077690277086" />
 <rect x="827.5" y="1180.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d825)" stroke-width="1.5" fill="none" clip-path="url(#d824)" />
 </g>
 <g>
@@ -13801,7 +13801,7 @@
 </g>
 <g>
 <use xlink:href="#d1168" />
-<rect x="387.5" y="1712.2938098956974" width="15" height="11.976699935550982" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.2069664997294526" />
+<rect x="387.5" y="1713.407091591624" width="15" height="10.863418239624531" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.17808086811733018" />
 <rect x="387.5" y="1675.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d1169)" stroke-width="1.5" fill="none" clip-path="url(#d1168)" />
 </g>
 <g>
@@ -14106,7 +14106,7 @@
 </g>
 <g>
 <use xlink:href="#d1290" />
-<rect x="442.5" y="1882.9608196147956" width="15" height="6.309690216452866" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.059928103529143496" />
+<rect x="442.5" y="1881.8111532844462" width="15" height="7.459356546802457" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.0897577847471601" />
 <rect x="442.5" y="1840.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d1291)" stroke-width="1.5" fill="none" clip-path="url(#d1290)" />
 </g>
 <g>
@@ -15111,7 +15111,7 @@
 </g>
 <g>
 <use xlink:href="#d1692" />
-<rect x="517.5" y="575.7294901687516" width="15" height="18.312601844457795" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.3713602278765077" />
+<rect x="517.5" y="575.7294901687516" width="15" height="19.298103584551065" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.39693043200507755" />
 <rect x="517.5" y="575.7294901687516" width="15" height="48.54101966249685" ry="4" stroke="url(#d1693)" stroke-width="1.5" fill="none" clip-path="url(#d1692)" />
 </g>
 <g>
@@ -15136,7 +15136,7 @@
 </g>
 <g>
 <use xlink:href="#d1702" />
-<rect x="792.5" y="575.7294901687516" width="15" height="29.155981988324605" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.65270670596199" />
+<rect x="792.5" y="575.7294901687516" width="15" height="29.806691361783418" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.6695902596187708" />
 <rect x="792.5" y="575.7294901687516" width="15" height="48.54101966249685" ry="4" stroke="url(#d1703)" stroke-width="1.5" fill="none" clip-path="url(#d1702)" />
 </g>
 <g>
@@ -15186,7 +15186,7 @@
 </g>
 <g>
 <use xlink:href="#d1722" />
-<rect x="242.5" y="630.7294901687516" width="15" height="9.738181008327803" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.14888503362331798" />
+<rect x="242.5" y="630.7294901687516" width="15" height="10.863418239624531" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.17808086811733018" />
 <rect x="242.5" y="630.7294901687516" width="15" height="48.54101966249685" ry="4" stroke="url(#d1723)" stroke-width="1.5" fill="none" clip-path="url(#d1722)" />
 </g>
 <g>
@@ -15196,7 +15196,7 @@
 </g>
 <g>
 <use xlink:href="#d1726" />
-<rect x="352.5" y="630.7294901687516" width="15" height="11.976699935550982" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.2069664997294526" />
+<rect x="352.5" y="630.7294901687516" width="15" height="13.076246313397682" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.23549574953849794" />
 <rect x="352.5" y="630.7294901687516" width="15" height="48.54101966249685" ry="4" stroke="url(#d1727)" stroke-width="1.5" fill="none" clip-path="url(#d1726)" />
 </g>
 <g>
@@ -15211,7 +15211,7 @@
 </g>
 <g>
 <use xlink:href="#d1732" />
-<rect x="517.5" y="630.7294901687516" width="15" height="16.276115525523466" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.31852077690277086" />
+<rect x="517.5" y="630.7294901687516" width="15" height="17.30490087738697" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.3452140341355209" />
 <rect x="517.5" y="630.7294901687516" width="15" height="48.54101966249685" ry="4" stroke="url(#d1733)" stroke-width="1.5" fill="none" clip-path="url(#d1732)" />
 </g>
 <g>
@@ -15526,7 +15526,7 @@
 </g>
 <g>
 <use xlink:href="#d1858" />
-<rect x="682.5" y="795.7294901687516" width="15" height="13.076246313397682" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.23549574953849794" />
+<rect x="682.5" y="795.7294901687516" width="15" height="14.160369967456687" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.26362483547220333" />
 <rect x="682.5" y="795.7294901687516" width="15" height="48.54101966249685" ry="4" stroke="url(#d1859)" stroke-width="1.5" fill="none" clip-path="url(#d1858)" />
 </g>
 <g>
@@ -15826,12 +15826,12 @@
 </g>
 <g>
 <use xlink:href="#d1978" />
-<rect x="682.5" y="960.7294901687516" width="15" height="11.976699935550982" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.2069664997294526" />
+<rect x="682.5" y="960.7294901687516" width="15" height="13.076246313397682" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.23549574953849794" />
 <rect x="682.5" y="960.7294901687516" width="15" height="48.54101966249685" ry="4" stroke="url(#d1979)" stroke-width="1.5" fill="none" clip-path="url(#d1978)" />
 </g>
 <g>
 <use xlink:href="#d1980" />
-<rect x="737.5" y="960.7294901687516" width="15" height="15.227485124430093" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.29131261245159096" />
+<rect x="737.5" y="960.7294901687516" width="15" height="16.276115525523466" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.31852077690277086" />
 <rect x="737.5" y="960.7294901687516" width="15" height="48.54101966249685" ry="4" stroke="url(#d1981)" stroke-width="1.5" fill="none" clip-path="url(#d1980)" />
 </g>
 <g>
@@ -15866,7 +15866,7 @@
 </g>
 <g>
 <use xlink:href="#d1994" />
-<rect x="1122.5" y="960.7294901687516" width="15" height="6.309690216452866" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.059928103529143496" />
+<rect x="1122.5" y="960.7294901687516" width="15" height="7.459356546802457" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.0897577847471601" />
 <rect x="1122.5" y="960.7294901687516" width="15" height="48.54101966249685" ry="4" stroke="url(#d1995)" stroke-width="1.5" fill="none" clip-path="url(#d1994)" />
 </g>
 <g>
@@ -16021,7 +16021,7 @@
 </g>
 <g>
 <use xlink:href="#d2056" />
-<rect x="627.5" y="1070.7294901687517" width="15" height="11.976699935550982" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.2069664997294526" />
+<rect x="627.5" y="1070.7294901687517" width="15" height="10.863418239624531" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.17808086811733018" />
 <rect x="627.5" y="1070.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d2057)" stroke-width="1.5" fill="none" clip-path="url(#d2056)" />
 </g>
 <g>
@@ -16151,7 +16151,7 @@
 </g>
 <g>
 <use xlink:href="#d2108" />
-<rect x="957.5" y="1125.7294901687517" width="15" height="8.602849861052647" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.11942729853438588" />
+<rect x="957.5" y="1125.7294901687517" width="15" height="7.459356546802457" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.0897577847471601" />
 <rect x="957.5" y="1125.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d2109)" stroke-width="1.5" fill="none" clip-path="url(#d2108)" />
 </g>
 <g>
@@ -16186,7 +16186,7 @@
 </g>
 <g>
 <use xlink:href="#d2122" />
-<rect x="242.5" y="1180.7294901687517" width="15" height="10.863418239624531" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.17808086811733018" />
+<rect x="242.5" y="1180.7294901687517" width="15" height="9.738181008327803" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.14888503362331798" />
 <rect x="242.5" y="1180.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d2123)" stroke-width="1.5" fill="none" clip-path="url(#d2122)" />
 </g>
 <g>
@@ -16501,17 +16501,17 @@
 </g>
 <g>
 <use xlink:href="#d2248" />
-<rect x="407.5" y="1345.7294901687517" width="15" height="18.312601844457795" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.3713602278765077" />
+<rect x="407.5" y="1345.7294901687517" width="15" height="17.30490087738697" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.3452140341355209" />
 <rect x="407.5" y="1345.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d2249)" stroke-width="1.5" fill="none" clip-path="url(#d2248)" />
 </g>
 <g>
 <use xlink:href="#d2250" />
-<rect x="462.5" y="1345.7294901687517" width="15" height="19.298103584551065" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.39693043200507755" />
+<rect x="462.5" y="1345.7294901687517" width="15" height="18.312601844457795" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.3713602278765077" />
 <rect x="462.5" y="1345.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d2251)" stroke-width="1.5" fill="none" clip-path="url(#d2250)" />
 </g>
 <g>
 <use xlink:href="#d2252" />
-<rect x="517.5" y="1345.7294901687517" width="15" height="18.312601844457795" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.3713602278765077" />
+<rect x="517.5" y="1345.7294901687517" width="15" height="17.30490087738697" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.3452140341355209" />
 <rect x="517.5" y="1345.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d2253)" stroke-width="1.5" fill="none" clip-path="url(#d2252)" />
 </g>
 <g>
@@ -16621,7 +16621,7 @@
 </g>
 <g>
 <use xlink:href="#d2296" />
-<rect x="627.5" y="1400.7294901687517" width="15" height="17.30490087738697" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.3452140341355209" />
+<rect x="627.5" y="1400.7294901687517" width="15" height="16.276115525523466" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.31852077690277086" />
 <rect x="627.5" y="1400.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d2297)" stroke-width="1.5" fill="none" clip-path="url(#d2296)" />
 </g>
 <g>
@@ -16651,7 +16651,7 @@
 </g>
 <g>
 <use xlink:href="#d2308" />
-<rect x="957.5" y="1400.7294901687517" width="15" height="13.076246313397682" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.23549574953849794" />
+<rect x="957.5" y="1400.7294901687517" width="15" height="11.976699935550982" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.2069664997294526" />
 <rect x="957.5" y="1400.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d2309)" stroke-width="1.5" fill="none" clip-path="url(#d2308)" />
 </g>
 <g>
@@ -16736,7 +16736,7 @@
 </g>
 <g>
 <use xlink:href="#d2342" />
-<rect x="792.5" y="1455.7294901687517" width="15" height="20.260417856928417" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.4218990052500079" />
+<rect x="792.5" y="1455.7294901687517" width="15" height="19.298103584551065" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.39693043200507755" />
 <rect x="792.5" y="1455.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d2343)" stroke-width="1.5" fill="none" clip-path="url(#d2342)" />
 </g>
 <g>
@@ -17006,7 +17006,7 @@
 </g>
 <g>
 <use xlink:href="#d2450" />
-<rect x="462.5" y="1620.7294901687517" width="15" height="17.30490087738697" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.3452140341355209" />
+<rect x="462.5" y="1620.7294901687517" width="15" height="16.276115525523466" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.31852077690277086" />
 <rect x="462.5" y="1620.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d2451)" stroke-width="1.5" fill="none" clip-path="url(#d2450)" />
 </g>
 <g>
@@ -17036,7 +17036,7 @@
 </g>
 <g>
 <use xlink:href="#d2462" />
-<rect x="792.5" y="1620.7294901687517" width="15" height="17.30490087738697" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.3452140341355209" />
+<rect x="792.5" y="1620.7294901687517" width="15" height="16.276115525523466" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.31852077690277086" />
 <rect x="792.5" y="1620.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d2463)" stroke-width="1.5" fill="none" clip-path="url(#d2462)" />
 </g>
 <g>
@@ -17091,7 +17091,7 @@
 </g>
 <g>
 <use xlink:href="#d2484" />
-<rect x="297.5" y="1675.7294901687517" width="15" height="13.076246313397682" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.23549574953849794" />
+<rect x="297.5" y="1675.7294901687517" width="15" height="11.976699935550982" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.2069664997294526" />
 <rect x="297.5" y="1675.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d2485)" stroke-width="1.5" fill="none" clip-path="url(#d2484)" />
 </g>
 <g>
@@ -17116,7 +17116,7 @@
 </g>
 <g>
 <use xlink:href="#d2494" />
-<rect x="572.5" y="1675.7294901687517" width="15" height="13.076246313397682" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.23549574953849794" />
+<rect x="572.5" y="1675.7294901687517" width="15" height="11.976699935550982" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.2069664997294526" />
 <rect x="572.5" y="1675.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d2495)" stroke-width="1.5" fill="none" clip-path="url(#d2494)" />
 </g>
 <g>
@@ -17471,7 +17471,7 @@
 </g>
 <g>
 <use xlink:href="#d2636" />
-<rect x="1177.5" y="1840.7294901687517" width="15" height="4.0" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.0" />
+<rect x="1177.5" y="1840.7294901687517" width="15" height="5.1558838455253735" ry="4" stroke="none" fill="rgb(38, 91, 163)" fill-opacity="0.029991003238820143" />
 <rect x="1177.5" y="1840.7294901687517" width="15" height="48.54101966249685" ry="4" stroke="url(#d2637)" stroke-width="1.5" fill="none" clip-path="url(#d2636)" />
 </g>
 <g>

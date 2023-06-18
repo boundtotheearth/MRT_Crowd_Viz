@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="1430" height="490" viewBox="0 0 1430 490" font-family="Verdana">
+     width="1430" height="490" viewBox="0 0 1430 490" id="heatmap_svg" font-family="Verdana">
 <defs>
 <clipPath id="d0">
 <rect x="166.0" y="90.72949016875157" width="18.0" height="51.54101966249685" stroke-width="1.5" fill="rgb(117, 132, 116)" fill-opacity="0.3" />
