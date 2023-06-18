@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="1430" height="545" viewBox="0 0 1430 545" font-family="Verdana">
+     width="1430" height="545" viewBox="0 0 1430 545" id="heatmap_svg" font-family="Verdana">
 <defs>
 <clipPath id="d0">
 <rect x="166.0" y="90.72949016875157" width="18.0" height="51.54101966249685" stroke-width="1.5" fill="rgb(117, 132, 116)" fill-opacity="0.3" />
@@ -3096,7 +3096,7 @@
 </g>
 <g>
 <use xlink:href="#d146" />
-<rect x="882.5" y="268.762608418665" width="15" height="25.507901412583415" ry="4" stroke="none" fill="rgb(117, 132, 116)" fill-opacity="0.5580522155596244" />
+<rect x="882.5" y="269.5720719098417" width="15" height="24.698437921406697" ry="4" stroke="none" fill="rgb(117, 132, 116)" fill-opacity="0.5370495669980353" />
 <rect x="882.5" y="245.72949016875157" width="15" height="48.54101966249685" ry="4" stroke="url(#d147)" stroke-width="1.5" fill="none" clip-path="url(#d146)" />
 </g>
 <g>
@@ -3231,7 +3231,7 @@
 </g>
 <g>
 <use xlink:href="#d200" />
-<rect x="167.5" y="383.07182607438665" width="15" height="21.198683756861797" ry="4" stroke="none" fill="rgb(117, 132, 116)" fill-opacity="0.4462436102487796" />
+<rect x="167.5" y="384.01009197432" width="15" height="20.260417856928417" ry="4" stroke="none" fill="rgb(117, 132, 116)" fill-opacity="0.4218990052500079" />
 <rect x="167.5" y="355.72949016875157" width="15" height="48.54101966249685" ry="4" stroke="url(#d201)" stroke-width="1.5" fill="none" clip-path="url(#d200)" />
 </g>
 <g>
@@ -3421,7 +3421,7 @@
 </g>
 <g>
 <use xlink:href="#d276" />
-<rect x="1157.5" y="451.81115328444594" width="15" height="7.459356546802457" ry="4" stroke="none" fill="rgb(117, 132, 116)" fill-opacity="0.0897577847471601" />
+<rect x="1157.5" y="452.9608196147956" width="15" height="6.309690216452866" ry="4" stroke="none" fill="rgb(117, 132, 116)" fill-opacity="0.059928103529143496" />
 <rect x="1157.5" y="410.72949016875157" width="15" height="48.54101966249685" ry="4" stroke="url(#d277)" stroke-width="1.5" fill="none" clip-path="url(#d276)" />
 </g>
 <g>
