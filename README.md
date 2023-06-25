@@ -2,19 +2,21 @@
 
 This project aims to visualize the crowdedness of MRT trains in Singapore, based on the monthly origin-destination trip data provided by the Land Transport Authority (LTA). The visualization is a custom built heatmap that provides a visual estimate of how crowded a train will be between any two stations along the network. Here is an example of the crowdedness along the NS line on a weekday:
 
-[Viz for NSL Weekday]
+![North South Line Weekday Crowdedness](Images/NSL_Weekday.png)
 
 I have also built a simple web app that generates this visualization for custom routes between any two stations, including transfers. You can find the web app at:
 
 https://boundtotheearth.github.io/MRT_Crowd_VIz
 
-[Screenshot of web app]
+![Screenshot of web app](Images/Web_App_Screenshot.png)
 
 # Motivation
 
-[Image of crowded train]
+![Image of Crowded Train](Images/ST_Train_Img.jpeg)
 
-How crowded will my train ride be?
+(Image from Straits Times)
+
+## How crowded will my train ride be?
 
 While LTA provides data on the current and forcasted crowdedness inside train stations, no such data exists for the trains themselves.
 
@@ -24,7 +26,7 @@ As a technical challenge for myself, I want to try building the data vizualizati
 
 ## 1. Passenger Volume by Origin Destination Train Stations
 
-[Image of API documentation]
+![Image of API documentation](Images/LTA_API.png)
 
 The raw data is obtained from [LTA Datamall] (https://datamall.lta.gov.sg/). The dataset name is: PASSENGER VOLUME BY ORIGIN DESTINATION TRAIN STATIONS.
 
@@ -41,14 +43,16 @@ It is important to note that this data counts the number of passengers, but does
 The number of people travelling between Jurong East and Ang Mo Kio will contribute to the number of people on a train travelling between Buona Vista and Bishan, as well as on a train travelling along the NS line.
 
 ## 2. Estimated Travel Times
-[Image of station sign]
+![Image of station sign](Images/NSL_Route_Sign.jpg)
 
 Thankfully, the estimated travel times between each station along a line is publicly available. Unfortunately, this isn't available to download, or through an API anywhere.  WHile I COULD scrape this site for the info, I think it would be much faster for me to just get it directly from the source. At each train station, there are signs that display the estimated travel times between each station along the line. So I went around the train network taking pictures of these signs, then manually entering the travel times.
 
 ## 3. Estimated Train Capacity
-[Image of trains]
+
 
 The crowdedness of a train dosen't just depend on the number of people on board. It also depends on how much space there is on the train. For example, the Circle line is a "medium-capacity" line, which runs trains that are smaller than the NS line. Even for the same line, there may be different train models in operation, with some being modified in various ways that change their capacity. Surprisingly, there are train enthusiasts in Singapore that keep track of the trains that are in operation, along with detail information and technical specs on each train model. This information is available over at https://spotters.sgtrains.com/ and I simply took an average of the capacities across the trains in operation, for each line.
+
+![Image of trains](Images/SGTrains.png)
 
 # Data Processing
 ## Building the Network Graph
@@ -82,23 +86,21 @@ There is some research that suggests better/more accurate ways of estimating the
 # Final Result
 Here are the generated crowd visualizations for each line, for both weekdays and weekends/holidays.
 
-## North South Line
-Weekday|Weekends/Holidays
-![]()| ![]()
+[North South Line](https://boundtotheearth.github.io/MRT_Crowd_Viz/NSL.html)
 
-## East West Line
+[East West Line](https://boundtotheearth.github.io/MRT_Crowd_Viz/EWL.html)
 
-## North East Line
+[North East Line](https://boundtotheearth.github.io/MRT_Crowd_Viz/NEL.html)
 
-## Circle Line
+[Circle Line](https://boundtotheearth.github.io/MRT_Crowd_Viz/CCL.html)
 
-## Downtown Line
+[Downtown Line](https://boundtotheearth.github.io/MRT_Crowd_Viz/DTL.html)
 
-## Thomson East Coast Line
+[Thomson East Coast Line](https://boundtotheearth.github.io/MRT_Crowd_Viz/TEL.html)
 
 # Observations
 
-## True Peak Hours
+## Peak Hours
 
 ## Utilization of the TEL
 
